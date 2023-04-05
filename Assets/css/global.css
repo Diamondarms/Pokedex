@@ -59,19 +59,10 @@ h1{
 }
 
 @media screen and (max-width: 380px){
-    body{
-        margin-top: 0rem;
-    }
-    .contentPokemon{
-        width: 100vw;
-        margin: auto;
-        max-width: none;
-        border-radius: 0rem;
-        height: 90vh;
-        background-color: #fff;
-        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.196);
-    }
-    .pokemonDisplay{
-        border-radius: 0rem;
+    .content{
+        max-width: 300px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
     }
 }
